@@ -1,8 +1,10 @@
+/*Full Body*/
 body{
 	margin: 0;
 	font-family: fantasy;
-	font-size: 20px;
+	font-size: 20px: ;
 }
+/*Header Settings*/
 header{
 	background-color: teal;
 	text-align: center;
@@ -19,7 +21,7 @@ header h1{
 	font-style: !important;
 	color: #F7B158;
 }
-
+/*Main Settings*/
 main{
 	max-width: 800px;
 	margin: 0 auto;
@@ -32,6 +34,11 @@ h2{
 	font-size: 30px;
 	color: teal;
 }
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
 
 a{
 	color: #F7B158;
@@ -40,7 +47,7 @@ a:hover{
 	color: teal;
 	background-color: salmon;
 }
-
+/*Footer Settings*/
 footer{
 	background-color: teal;
 	text-align: center;
@@ -57,9 +64,4 @@ footer a:hover{
 	opacity:.5;
 	background-color: transparent;
 	color:  #F7B158;
-}
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
 }
